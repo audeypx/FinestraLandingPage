@@ -1,0 +1,25 @@
+{
+  "name": "finestralandingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/style.css -o public/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/audeypx/FinestraLandingPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/audeypx/FinestraLandingPage/issues"
+  },
+  "homepage": "https://github.com/audeypx/FinestraLandingPage#readme",
+  "dependencies": {
+    "live": "^0.1.25-beta.0",
+    "server": "^0.0.3",
+    "tailwindcss": "^2.2.17"
+  }
+}
