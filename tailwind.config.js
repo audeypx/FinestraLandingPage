@@ -3,15 +3,18 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        transparent: "transparent",
-        current: "currentColor",
         blue: {
           primary: "#DEE8F5",
-         secondary: "#003366",
+          secondary: "#003366",
+          footer: "#336699",
         },
         gray: {
-          primary: "#858585",
+          primary: "#3F3F3F",
+          secondary: "#858585",
         },
+      },
+      fontFamily: {
+        body: ["Montserrat"],
       },
     },
   },
