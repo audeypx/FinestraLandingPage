@@ -6,11 +6,11 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
         blue: {
-          150: "#DEE8F5",
-          950: "#003366",
+          primary: "#DEE8F5",
+         secondary: "#003366",
         },
         gray: {
-          150: "#858585",
+          primary: "#858585",
         },
       },
     },
