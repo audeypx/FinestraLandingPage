@@ -17,6 +17,13 @@ module.exports = {
         body: ["Montserrat"],
       },
     },
+    screens: {
+      minilappy: "927px",
+      // => @media (min-width: 927px) { ... }
+
+      phone: "550px",
+      // => @media (min-width: 550px) { ... }
+    },
   },
   variants: {
     extend: {},
