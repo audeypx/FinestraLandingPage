@@ -23,6 +23,9 @@ module.exports = {
 
       phone: "550px",
       // => @media (min-width: 550px) { ... }
+      
+      xlsm:"1212px",
+      // => @media (min-width: 1212px) { ... }
     },
   },
   variants: {

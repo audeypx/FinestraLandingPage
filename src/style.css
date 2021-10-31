@@ -3,3 +3,17 @@
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
+
+@media screen and (max-width: 928px) {
+    .grid-family {
+        flex-direction: column;
+    }
+
+    .footer{
+        flex-direction: column;
+    }
+
+    .footer-right{
+        flex-direction: column;
+    }
+}
